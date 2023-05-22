@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nasi uduk lintang</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header" id="header">
+
+        <div class="logo">
+            <img src="image/logo.png" style="height: 2.5cm; width: 2.5cm; border-radius: 20px;" alt="logo">
+        </div>
+
+    </div>
+
+
+
+    <div class="content">
+
+
+
+        <div class="title" style="display: flex; justify-content: space-between;">
+            <h3 class="tulisan" style="position: absolute; margin-top: 360px; margin-left: 36.5%; margin-right: auto;">M E N U</h3>
+        
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <a href=""><img src="image/poster Nasi Uduk Lintang.png" style="width: 371.2px; height: 340px; margin-right: auto;"></a>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="image/poster Nasi Uduk Lintang 1.png" style="width: 371.2px; height: 340px; margin-right: auto;">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="image/ar Nasi uduk.png" style="width: 371.2px; height: 340px; margin-right: auto;">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>    
+            </div>        
+        </div>
+        <!-- <div style="display: flex; justify-content: space-between;">
+            <div id="paket-andalan" class="paket">
+                <a href="#menuandalan">Menu Andalan</a>
+            </div>
+            <div id="paket-hemat" class="paket">
+                <a href="#pakethemat">Paket Hemat</a> 
+            </div>
+            <div id="paket-komplit" class="paket" style="padding-top: 30px;">
+                <a href="paketkomplit">Minuman</a>
+            </div>    
+        </div> -->
+
+
+        <div class="canvas-food">
+            <div class="left">
+                <div id="gambar1"></div>
+                <div id="bawahgambar">
+                    <div id="harga">10k</div>
+                    <p onclick="tampilkanGambar1()">Lihat lebih</p>
+                </div>
+            </div>
+
+            <div class="card-1">
+                    <div>
+                        <div class="lihat-lebih1-1" onclick="keluar1()">
+                
+                        </div>
+                        <img src="image/nasi uduk.png" alt="eror">
+                        <div class="text-card-1">
+                            Nasi Uduk Komplit <br>
+                            ☆ ☆ ☆ ☆ ☆
+                            <p>Isian :</p>
+                            <ol>
+                                <li>Nasi Uduk</li>
+                                <li>Kering Tempe</li>
+                                <li>Sambal Goreng Tahu</li>
+                                <li>Mie</li>
+                                <li>Telur Suwir</li>
+                                <li>Sambel</li>
+                                <li>Serundeng</li>
+                                <li>Kerupuk</li>
+                            </ol>
+                        </div>
+                        <div class="lihat-lebih1" onclick="keluar1()">
+                
+                        </div>
+                    </div>
+            </div>
+
+            <!-- ============================================ -->
+
+            <div class="right">
+                <div id="gambar2"></div>
+                <div id="bawahgambar">
+                    <div id="harga">1k</div>
+                    <p onclick="tampilkanGambar2()">Lihat lebih</p>
+                </div>
+                
+            </div>
+
+            <div class="card-2">
+                <div>
+                    <div class="lihat-lebih2-2" onclick="keluar2()"></div>
+                    <img src="image/gorengan.png" alt="eror">
+                    <div class="text-card-2">
+                        Gorengan 1k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <p>Isian :</p>
+                        <ol>
+                            <li>Mendoan</li>
+                            <li>Bakwan</li>
+                            <li>Gembus</li>
+                            <li>Martabak</li> 
+                        </ol>
+                    </div>
+                    <div class="lihat-lebih2" onclick="keluar2()">
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====================================== -->
+        <div class="canvas-food">
+            <div class="left">
+                <div id="gambar3"></div>
+                <div id="bawahgambar">
+                    <div id="harga">6k</div>
+                    <p onclick="tampilkanGambar3()" style="margin-left: 20px;">AyaGor</p>
+                </div>
+            </div>
+            <div class="card-3">
+                <div>
+                    <div class="lihat-lebih3-3" onclick="keluar1()">
+                
+                    </div>
+                    <img src="image/ayam goreng.png" alt="eror">
+                    <div class="text-card-3">
+                        Ayam Goreng 6k - 7k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <p>Isian :</p>
+                        <ol>
+                            <li>Paha</li>
+                            <li>Dada</li>
+                            <li>sayap</li>
+                            <li>Kepala</li> 
+                        </ol>
+                    </div>
+                    <div class="lihat-lebih3" onclick="keluar3()">
+                
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ===================================== -->
+            <div class="right">
+                <div id="gambar4"></div>
+                <div id="bawahgambar">
+                    <div id="harga">1,5k</div>
+                    <p onclick="tampilkanGambar4()" style="margin-left: 23px;">TahBak</p>
+                </div>
+            </div>
+            <div class="card-4">
+                <div>
+                    <div class="lihat-lebih4-4" onclick="keluar4()">
+                
+                    </div>
+                    <img src="image/tahu bakso.png" alt="eror">
+                    <div class="text-card-4">
+                        Tahu Bakso 1,5k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <h5>Tahu yang diberi isian bakso hingga penuh dan digoreng dengan minyak yang selalu bersih sehingga tidak berbahaya untuk tubuh.</h5>
+                    </div>
+                    <div class="lihat-lebih4" onclick="keluar4()">
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================================================== -->
+
+
+
+        <div class="canvas-food">
+            <div class="left">
+                <div id="gambar5"></div>
+                <div id="bawahgambar">
+                    <div id="harga">4k</div>
+                    <p onclick="tampilkanGambar5()" style="margin-left: 30px;">TelBal</p>
+                </div>
+            </div>
+            <div class="card-5">
+                <div>
+                    <div class="lihat-lebih5-5" onclick="keluar5()">
+                
+                    </div>
+                    <img src="image/Telur bulat balado.png" alt="eror">
+                    <div class="text-card-5">
+                        Telur Bulat Balado 4k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <h5>Telur rebus yang dimasak lagi dengan bumbu balado dengan sensasi yang pas, tidak terlalu pedas cocok untuk semua kalangan dari anak anak sampai orang dewasa.</h5>
+                    </div>
+                    <div class="lihat-lebih5" onclick="keluar5()">
+                
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- ===================================== -->
+            <div class="right">
+                <div id="gambar6"></div>
+                <div id="bawahgambar">
+                    <div id="harga">1,5k</div>
+                    <p onclick="tampilkanGambar6()" style="margin-left: 17px;">TelKeCok</p>
+                </div>
+            </div>
+            <div class="card-6">
+                <div>
+                    <div class="lihat-lebih6-6" onclick="keluar6()">
+                
+                    </div>
+                    <img src="image/telur kecap coklat.png" alt="eror">
+                    <div class="text-card-6">
+                        Telur Kecap Coklat 1,5k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <h5>Telur kecap coklat dibuat dari telur rebus yang dimasak lagi dengan kecap manis berkualitas sehingga menjadikan telur ini sangat lezat untuk dinikmati.</h5>
+                    </div>
+                    <div class="lihat-lebih6" onclick="keluar6()">
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======================================================== -->
+
+
+
+
+
+        <div class="canvas-food">
+            <div class="left">
+                <div id="gambar7"></div>
+                <div id="bawahgambar">
+                    <div id="harga">2k</div>
+                    <p onclick="tampilkanGambar7()" style="margin-left: 15px;">TahBace</p>
+                </div>
+            </div>
+            <div class="card-7">
+                <div>
+                    <div class="lihat-lebih7-7" onclick="keluar7()">
+                
+                    </div>
+                    <img src="image/Tahu Bacem.png" alt="eror">
+                    <div class="text-card-7">
+                        Tahu Bacem 2k / pcs<br>
+                        ☆ ☆ ☆ ☆ ☆
+                        <h5>Tahu yang direbus dalam air kecap dengan rempah rempah, perpaduan rasa manis dan gurih menjadikan makanan yang satu ini disukai banyak orang sebagai cemilan ataupun untuk lauk makan.</h5>
+                    </div>
+                    <div class="lihat-lebih7" onclick="keluar7()">
+                
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- ===================================== -->
+            <div class="right">
+                <div id="gambar8"></div>
+                <div id="bawahgambar">
+                    <!-- <div id="harga"></div> -->
+                    <p onclick="tampilkanGambar8()" style="margin-left: 25px;">Segera Hadir</p>
+                </div>
+            </div>
+            <div class="card-8">
+                <div>
+                    <div class="lihat-lebih8-8" onclick="keluar8()">
+                
+                    </div>
+                    <img src="image/comming soon.png" alt="eror">
+                    <div class="text-card-8">
+                        Comming Soon<br>
+                        <h5 style="text-align: center;">==========================</h5>
+                        <h5>Nantikan menu menu kedepannya yang akan membuat kalian puas dengan kelebihan kelebihan dari produk kami yang lezat, porsi besar, dan masih banyak lagi.</h5>
+                    </div>
+                    <div class="lihat-lebih8" onclick="keluar8()">
+                
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- ========================================================= -->
+
+    <div class="download-card">
+        <h4>Dapatkan aplikasi AR Nasi Uduk Lintang</h4>
+        <br>
+        <div>
+            <a href="#">Download AR Nasi Uduk Lintang</a>
+        </div>
+        <br>
+        <h4>============================</h4>
+        <h4>============================</h4>
+        <h4>AR Nasi Uduk Lintang dibuat untuk memfisualisasikan Nasi Uduk Lintang yang dapat diakses melalui media android dengan cara di scan gambar Nasi Uduk Lintang secara real time.</h4>
+        <h4>============================</h4>
+        <h4>============================</h4>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ending">
+        <h4 style="text-align: center;">Di dukung oleh <img src="image/logo.png" alt="eror" height="50px" width="50 px">Nasi Uduk Lintang</h4>
+        <h4 style="text-align: center;">Di persembahkan oleh :</h4>
+        <h5 style="text-align: center;">Amiruddin Aziz</h5>
+        <h5 style="text-align: center;">Ghania Aqeela Ara Khadafi</h5>
+        <h5 style="text-align: center;">Muhammad Yahya Abdurrohim</h5>
+        <h5 style="text-align: center;">Raditya Febriandaru Muhammad </h5>
+        <h5 style="text-align: center;">Rayhan Adesta Anandaputra </h5>
+        <h5 style="text-align: center;">Vania Kumala Aristawati</h5>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
